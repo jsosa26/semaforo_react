@@ -1,12 +1,83 @@
+body{
+    background: #2d8cec;
+    font-size: 20px;
+    font-family: 'Handlee';
+}
 
-/* 
+.main{
+    border-color: blue;
+    border: 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.cuerpo{
+    background: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+    height: 330px;
+    margin: 0px;
+    border-radius: 3%;
+    z-index: 1;
+}
+.rojoEnc {
+    background: red;
+    box-shadow: 1px -1px 30px 10px rgb(255, 0, 0);
+    -webkit-box-shadow: 1px -1px 30px 10px rgb(255, 0, 0);
+    -moz-box-shadow: 1px -1px 30px 10px rgb(255, 0, 0);
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border-radius: 50%;
+    z-index: 2;
+}
+.amarilloEnc {
+    background: yellow;
+    box-shadow: 1px -1px 30px 10px rgb(255, 247, 0);
+    -webkit-box-shadow: 1px -1px 30px 10px rgba(255,247,0);
+    -moz-box-shadow: 1px -1px 30px 10px rgba(255,247,0);
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border-radius: 50%;
+    z-index: 2;
+}
+.verdeEnc {
+    background: rgb(3, 247, 3);
+    box-shadow: 1px -1px 30px 10px rgb(31, 219, 0);
+    -webkit-box-shadow: 1px -1px 30px 10px rgba(31,219,0);
+    -moz-box-shadow: 1px -1px 30px 10px rgba(31,219,0);
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border-radius: 50%;
+    z-index: 2;
+}
 
-*/
+.rojoApag{
+    background: rgb(55, 2, 2);
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border-radius: 50%;
+    z-index: 2;
+}
+.amarilloApag{
+    background: rgb(108, 108, 1);
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border-radius: 50%;
+    z-index: 2;
+}
+.verdeApag{
+    background: rgb(0, 47, 0);
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border-radius: 50%;
+    z-index: 2;
+}
